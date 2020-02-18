@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://fiorellasaro.github.io/atierra",
   "dependencies": {
     "animate.css": "^3.7.2",
     "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
     "iview": "^3.5.4",
     "view-design": "^4.1.2",
     "vue": "^2.6.11",
